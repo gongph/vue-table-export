@@ -1,5 +1,5 @@
 # vue-mint-scroll
-[![npm](https://img.shields.io/badge/npm-v%201.0.3-brightgreen.svg)](https://www.npmjs.com/package/vue-mint-scroll)
+[![npm](https://img.shields.io/badge/npm-v%201.0.3-brightgreen.svg)](https://www.npmjs.com/package/vue-mint-scroll) [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)](https://www.npmjs.com/package/vue-mint-scroll)
 
 基于 vue2.0 开发的一个轻量级、简单优雅的列表无缝滚动组件。
 
