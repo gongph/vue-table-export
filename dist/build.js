@@ -5894,10 +5894,10 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "D:\\workSpace\\git\\vue-mint-scroll\\src\\example\\app.vue"
+	__vue_options__.__file = "D:\\workSpace\\git\\vue-mint-scroll\\example\\app.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-05f8b5e3"
+	__vue_options__._scopeId = "data-v-828aa44a"
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5906,9 +5906,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-05f8b5e3", __vue_options__)
+	    hotAPI.createRecord("data-v-828aa44a", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-05f8b5e3", __vue_options__)
+	    hotAPI.reload("data-v-828aa44a", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] app.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -5932,8 +5932,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-05f8b5e3&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-05f8b5e3&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-828aa44a&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-828aa44a&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -5951,7 +5951,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.container[data-v-05f8b5e3] {\r\n\tmargin-top: 50px;\n}\n.box[data-v-05f8b5e3] {\r\n\tbackground: #fff;\r\n\tborder: 1px solid #aaa;\r\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);\n}\n.box ul[data-v-05f8b5e3] {\r\n\tlist-style: none;\r\n\tpadding: 0;\r\n\tmargin: 0;\n}\n.box ul li[data-v-05f8b5e3] {\r\n\tline-height: 3;\r\n\tborder-bottom: 1px solid #aaa;\r\n\tpadding-left: 10px;\n}\n.box ul li[data-v-05f8b5e3]:hover {\r\n\tbackground: #f8f8f8;\n}\n.box ul li[data-v-05f8b5e3]:last-child {\r\n\tborder-bottom: none;\n}\n.box h4[data-v-05f8b5e3] {\r\n\tbackground: #f8f8f8;\r\n\tpadding: 10px;\r\n\tmargin: 0;\r\n\tborder-bottom: 1px solid #eee;\n}\r\n", ""]);
+	exports.push([module.id, "\n.container[data-v-828aa44a] {\r\n\tmargin-top: 50px;\n}\n.box[data-v-828aa44a] {\r\n\tbackground: #fff;\r\n\tborder: 1px solid #aaa;\r\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);\n}\n.box ul[data-v-828aa44a] {\r\n\tlist-style: none;\r\n\tpadding: 0;\r\n\tmargin: 0;\n}\n.box ul li[data-v-828aa44a] {\r\n\tline-height: 3;\r\n\tborder-bottom: 1px solid #aaa;\r\n\tpadding-left: 10px;\n}\n.box ul li[data-v-828aa44a]:hover {\r\n\tbackground: #f8f8f8;\n}\n.box ul li[data-v-828aa44a]:last-child {\r\n\tborder-bottom: none;\n}\n.box h4[data-v-828aa44a] {\r\n\tbackground: #f8f8f8;\r\n\tpadding: 10px;\r\n\tmargin: 0;\r\n\tborder-bottom: 1px solid #eee;\n}\r\n", ""]);
 
 	// exports
 
@@ -6594,7 +6594,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-05f8b5e3", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-828aa44a", module.exports)
 	  }
 	}
 
