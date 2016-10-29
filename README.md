@@ -45,7 +45,7 @@ Vue.use(MintScroll) // 安装
 </template>
 ```
 
-效果图：
+## 效果图
 ![preview](/media/mint-scroll.gif)
 
 ## Licence
