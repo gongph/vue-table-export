@@ -39,7 +39,7 @@ export default (element, { speed = 20, height } ) => {
 	/**
 	 * 启动计时器
 	 */
-	mqrqueeTimer = setInterval(function () {
+	mqrqueeTimer = setInterval(() => {
 		if ( height >= innerHeight ) {
 			clearInterval(mqrqueeTimer)
 		} else {
@@ -49,14 +49,14 @@ export default (element, { speed = 20, height } ) => {
 	/**
 	 * 监听 `mouseover` 
 	 */
-	scrollNode.onmouseover = function () {
+	scrollNode.onmouseover = () => {
 	  	clearInterval(mqrqueeTimer);
 	}
 	/**
 	 * 监听 `mouseout` 
 	 */
-	scrollNode.onmouseout = function () {
-	  	mqrqueeTimer = setInterval(function () {
+	scrollNode.onmouseout = () => {
+	  	mqrqueeTimer = setInterval(() => {
 			if ( height >= innerHeight ) {
 				clearInterval(mqrqueeTimer)
 			} else {
