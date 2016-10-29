@@ -48,5 +48,11 @@ Vue.use(MintScroll) // 安装
 ## 效果图
 ![preview](/media/mint-scroll.gif)
 
+## API
+|Props|类型|默认值|描述|
+|:---:|:---:|:---:|:---:|
+|speed|Number| `20` |滚动速度，数值越大滚动越慢。|
+|height|String| `300px`| 滚动列表显示的高度|
+
 ## Licence
 Copyright (c) 2016 [gongph](https://github.com/gongph)
