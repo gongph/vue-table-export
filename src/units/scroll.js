@@ -29,7 +29,6 @@ export default (element, { speed = 20, height } ) => {
 			setMarginTopStyle(items)
 		}
 	}
-
 	/**
 	 * 设置 `margin-top` 样式
 	 * @param  {Node} node 	Dom元素
@@ -37,7 +36,6 @@ export default (element, { speed = 20, height } ) => {
 	function setMarginTopStyle ( node ) {
 		node.style.cssText = `margin-top: ${ _margin_top_index -- }px`
 	}
-
 	/**
 	 * 启动计时器
 	 */
@@ -48,14 +46,12 @@ export default (element, { speed = 20, height } ) => {
 			mintScroll()
 		}
 	}, speed)
-
 	/**
 	 * 监听 `mouseover` 
 	 */
 	scrollNode.onmouseover = function () {
 	  	clearInterval(mqrqueeTimer);
 	}
-
 	/**
 	 * 监听 `mouseout` 
 	 */
