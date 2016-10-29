@@ -6484,8 +6484,8 @@
 		var mqrqueeTimer;
 
 		/**
-	  * 列表滚动函数
-	  */
+	 * 列表滚动函数
+	 */
 		function mintScroll() {
 			// 修改items所在元素的 `margin-top` 样式
 			setMarginTopStyle(items);
@@ -6500,15 +6500,13 @@
 				setMarginTopStyle(items);
 			}
 		}
-
 		/**
 	  * 设置 `margin-top` 样式
-	  * @param  {Node} node 		Dom元素
+	  * @param  {Node} node 	Dom元素
 	  */
 		function setMarginTopStyle(node) {
 			node.style.cssText = "margin-top: " + _margin_top_index-- + "px";
 		}
-
 		/**
 	  * 启动计时器
 	  */
@@ -6519,14 +6517,12 @@
 				mintScroll();
 			}
 		}, speed);
-
 		/**
 	  * 监听 `mouseover` 
 	  */
 		scrollNode.onmouseover = function () {
 			clearInterval(mqrqueeTimer);
 		};
-
 		/**
 	  * 监听 `mouseout` 
 	  */
