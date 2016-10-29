@@ -54,5 +54,5 @@ Vue.use(MintScroll) // 安装
 |speed|Number| `20` |滚动速度，数值越大滚动越慢。|
 |height|String| `300px`| 滚动列表显示的高度|
 
-## Licence
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gongph/vue-mint-scroll/master/LICENSE) Copyright (c) 2016 [gongph](https://github.com/gongph) 
+## Licence [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gongph/vue-mint-scroll/master/LICENSE)
+Copyright (c) 2016 [gongph](https://github.com/gongph) 
