@@ -1,7 +1,7 @@
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	entry: './src',
+	entry: './example',
 	output: {
 		path: './dist',
 		filename: 'build.js'
@@ -24,7 +24,7 @@ module.exports = {
 	plugins: [
 	    new HtmlwebpackPlugin({
 	      filename: 'index.html',
-	      template: 'src/index.html'
+	      template: 'example/index.html'
 	    })
 	],
 	// 配置后缀
