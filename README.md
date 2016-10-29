@@ -55,4 +55,4 @@ Vue.use(MintScroll) // 安装
 |height|String| `300px`| 滚动列表显示的高度|
 
 ## Licence
-Copyright (c) 2016 [gongph](https://github.com/gongph)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gongph/vue-mint-scroll/master/LICENSE) Copyright (c) 2016 [gongph](https://github.com/gongph) 
