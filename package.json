@@ -1,6 +1,6 @@
 {
   "name": "vue-mint-scroll",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a light-weight, simple vue components with vue2.0",
   "license": "MIT",
   "author": {
@@ -11,9 +11,10 @@
     "type": "git",
     "url": "git@github.com:gongph/vue-mint-scroll.git"
   },
-  "main": "index.js",
+  "main": "./dist/vue-mint-scroll.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline"
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --color --hide-modules --config build/webpack.build.config.js"
   },
   "keywords": [
     "vuex",
