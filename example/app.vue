@@ -27,7 +27,8 @@
 	</div>
 </template>
 <script>
-	import MintScroll from '../components/mint-scroll'
+	import MintScroll from '../src/components/mint-scroll'
+	
 	export default {
 		data () {
 			return {
