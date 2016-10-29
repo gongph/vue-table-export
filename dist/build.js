@@ -6281,17 +6281,6 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = {
-		data: function data() {
-			return {
-				isHandle: false
-			};
-		},
-
-		methods: {
-			handlerSomething: function handlerSomething() {
-				console.log('handling something....');
-			}
-		},
 		components: {
 			MintScroll: _mintScroll2.default
 		}
