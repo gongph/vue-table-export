@@ -27,23 +27,13 @@
 	</div>
 </template>
 <script>
-	import MintScroll from '../src/components/mint-scroll'
-	
-	export default {
-		data () {
-			return {
-				isHandle: false
-			}
-		},
-		methods: {
-			handlerSomething () {
-				console.log('handling something....')
-			}
-		},
-		components: {
-			MintScroll
-		}
+import MintScroll from '../src/components/mint-scroll'
+
+export default {
+	components: {
+		MintScroll
 	}
+}
 </script>
 
 <style scoped>
