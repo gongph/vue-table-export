@@ -1,7 +1,7 @@
 # vue-mint-scroll
 基于 vue2.0 开发的一个轻量级、简单优雅的列表无缝滚动组件。
 
-## Usage
+## 安装
 ```
 npm i vue-mint-scroll --save
 ```
