@@ -1,5 +1,11 @@
-import MintScroll from './src/components/mint-scroll'
+import mintScroll from './src/components/mint-scroll'
+
+const components = {
+	'mint-scroll' : mintScroll
+}
 
 export default {
-	MintScroll
+	install (Vue) {
+		Object.keys(components).forEach( (key) => Vue.component(key, components[key]) )
+	}
 }
