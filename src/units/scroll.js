@@ -5,17 +5,17 @@
  */
 export default (element, { speed = 20, height } ) => {
 	const scrollNode = document.querySelector(element)
-    const items = scrollNode.children[0]
-    const itemsHeight = items.children.length * items.children[0].offsetHeight
-    // 偏移量
-    var _margin_top_index = 0
-    // 计时器
-    var mqrqueeTimer
+	const items = scrollNode.children[0]
+	const itemsHeight = items.children.length * items.children[0].offsetHeight
+	// 偏移量
+	var _margin_top_index = 0
+	// 计时器
+	var mqrqueeTimer
 
-    /**
-     * 列表滚动函数
-     */
-    function mintScroll () {
+	/**
+	* 列表滚动函数
+	*/
+	function mintScroll () {
 		// 修改items所在元素的 `margin-top` 样式
 		setMarginTopStyle(items)
 		// 获取 `margin-top` 偏移量绝对值
@@ -26,13 +26,13 @@ export default (element, { speed = 20, height } ) => {
 			items.appendChild(Array.prototype.slice.call(items.children).slice(0, 1)[0])
 			// `margin-top` 归零，从新计算
 			_margin_top_index = 0
-		    setMarginTopStyle(items)
+			setMarginTopStyle(items)
 		}
 	}
 
 	/**
 	 * 设置 `margin-top` 样式
-	 * @param  {Node} node 		Dom元素
+	 * @param  {Node} node 	Dom元素
 	 */
 	function setMarginTopStyle ( node ) {
 		node.style.cssText = `margin-top: ${ _margin_top_index -- }px`
