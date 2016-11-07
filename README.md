@@ -12,7 +12,7 @@
 - blob
 - FileSaver
 - vue（2.0以上版本）
-- bootstrap(可选依赖。组件样式默认依赖的是 bootstrapCSS)
+- bootstrapCSS样式库(可选依赖。组件默认依赖的是它的样式)
 
 组件所依赖的文件都在 `dist` 目录。
 
