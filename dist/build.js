@@ -5882,7 +5882,7 @@
 	__vue_exports__ = __webpack_require__(8)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(15)
+	var __vue_template__ = __webpack_require__(13)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -5894,10 +5894,10 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "D:\\workSpace\\git\\vue-mint-scroll\\example\\app.vue"
+	__vue_options__.__file = "D:\\workSpace\\git\\vue-table-export\\example\\app.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-828aa44a"
+	__vue_options__._scopeId = "data-v-4343dfb4"
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5906,9 +5906,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-828aa44a", __vue_options__)
+	    hotAPI.createRecord("data-v-4343dfb4", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-828aa44a", __vue_options__)
+	    hotAPI.reload("data-v-4343dfb4", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] app.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -5932,8 +5932,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-828aa44a&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-828aa44a&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4343dfb4&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4343dfb4&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./app.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -5951,7 +5951,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.container[data-v-828aa44a] {\r\n\tmargin-top: 50px;\n}\n.box[data-v-828aa44a] {\r\n\tbackground: #fff;\r\n\tborder: 1px solid #aaa;\r\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);\n}\n.box ul[data-v-828aa44a] {\r\n\tlist-style: none;\r\n\tpadding: 0;\r\n\tmargin: 0;\n}\n.box ul li[data-v-828aa44a] {\r\n\tline-height: 3;\r\n\tborder-bottom: 1px solid #aaa;\r\n\tpadding-left: 10px;\n}\n.box ul li[data-v-828aa44a]:hover {\r\n\tbackground: #f8f8f8;\n}\n.box ul li[data-v-828aa44a]:last-child {\r\n\tborder-bottom: none;\n}\n.box h4[data-v-828aa44a] {\r\n\tbackground: #f8f8f8;\r\n\tpadding: 10px;\r\n\tmargin: 0;\r\n\tborder-bottom: 1px solid #eee;\n}\r\n", ""]);
+	exports.push([module.id, "\n.container[data-v-4343dfb4] {margin-top: 50px;\n}\n", ""]);
 
 	// exports
 
@@ -6274,17 +6274,31 @@
 		value: true
 	});
 
-	var _mintScroll = __webpack_require__(9);
+	var _index = __webpack_require__(9);
 
-	var _mintScroll2 = _interopRequireDefault(_mintScroll);
+	var _index2 = _interopRequireDefault(_index);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	exports.default = {
+		data: function data() {
+			return {
+				users: [{ id: '1', name: '张三', age: '12', birth: '2001-08-06' }, { id: '2', name: '李四', age: '15', birth: '2013-02-03' }, { id: '3', name: '王五', age: '12', birth: '2016-12-01' }]
+			};
+		},
+
 		components: {
-			MintScroll: _mintScroll2.default
+			TableExport: _index2.default
+		},
+		mounted: function mounted() {
+			//console.log(In);
 		}
 	}; //
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -6319,14 +6333,11 @@
 
 	var __vue_exports__, __vue_options__
 
-	/* styles */
-	__webpack_require__(10)
-
 	/* script */
-	__vue_exports__ = __webpack_require__(12)
+	__vue_exports__ = __webpack_require__(10)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(14)
+	var __vue_template__ = __webpack_require__(12)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -6338,10 +6349,9 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "D:\\workSpace\\git\\vue-mint-scroll\\src\\components\\mint-scroll.vue"
+	__vue_options__.__file = "D:\\workSpace\\git\\vue-table-export\\src\\components\\index.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-357450ce"
 
 	/* hot reload */
 	if (false) {(function () {
@@ -6350,12 +6360,12 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-357450ce", __vue_options__)
+	    hotAPI.createRecord("data-v-2d4e829d", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-357450ce", __vue_options__)
+	    hotAPI.reload("data-v-2d4e829d", __vue_options__)
 	  }
 	})()}
-	if (__vue_options__.functional) {console.error("[vue-loader] mint-scroll.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+	if (__vue_options__.functional) {console.error("[vue-loader] index.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 	module.exports = __vue_exports__
 
@@ -6364,45 +6374,62 @@
 /* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
-	// style-loader: Adds some css to the DOM by adding a <style> tag
+	'use strict';
 
-	// load the styles
-	var content = __webpack_require__(11);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(7)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-357450ce&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./mint-scroll.vue", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-357450ce&scoped=true!./../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./mint-scroll.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _export = __webpack_require__(11);
+
+	var _export2 = _interopRequireDefault(_export);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = {
+		props: {
+			className: {
+				type: String,
+				default: 'btn-success'
+			},
+			data: {
+				type: Array,
+				required: true
+			},
+			filename: String,
+			type: {
+				type: String,
+				default: 'xlsx'
+			}
+		},
+		computed: {
+			newFilename: function newFilename() {
+				if (filename) {
+					return Date.parse(new Date());
+				} else {
+					return this.filename;
+				}
+			}
+		},
+		methods: {
+			toggle: function toggle() {
+				(0, _export2.default)({
+					data: this.data,
+					type: this.type,
+					filename: this.newFilename
+				});
+			}
 		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
+	}; //
+	//
+	//
+	//
+	//
+	//
 
 /***/ },
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\n.mint-scroll[data-v-357450ce] {\n\toverflow: hidden;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 12 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	'use strict';
 
@@ -6410,141 +6437,119 @@
 		value: true
 	});
 
-	var _scroll = __webpack_require__(13);
+	exports.default = function () {
+		var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+		    _ref$data = _ref.data,
+		    data = _ref$data === undefined ? [] : _ref$data,
+		    _ref$type = _ref.type,
+		    type = _ref$type === undefined ? 'xlsx' : _ref$type,
+		    filename = _ref.filename;
 
-	var _scroll2 = _interopRequireDefault(_scroll);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = {
-		props: {
-			speed: {
-				type: String,
-				default: '20'
-			},
-			height: {
-				type: String,
-				default: '300px'
-			}
-		},
-		computed: {
-			numberSpeed: function numberSpeed() {
-				return parseInt(this.speed);
-			}
-		},
-		mounted: function mounted() {
-			// 启动滚动
-			(0, _scroll2.default)('.mint-scroll', {
-				speed: this.numberSpeed,
-				height: this.height
-			});
+		function datenum(v, date1904) {
+			if (date1904) v += 1462;
+			var epoch = Date.parse(v);
+			return (epoch - new Date(Date.UTC(1899, 11, 30))) / (24 * 60 * 60 * 1000);
 		}
-	}; //
-	//
-	//
-	//
 
-/***/ },
-/* 13 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	/**
-	 * 无缝滚动
-	 * @param  {String} element       元素的 `class` 名字。例如： '.mint-scroll'
-	 * @param  {Number} options.speed 滚动速度。默认是20，数字越大滚动越慢。
-	 */
-	exports.default = function (element, _ref) {
-		var _ref$speed = _ref.speed,
-		    speed = _ref$speed === undefined ? 20 : _ref$speed,
-		    height = _ref.height;
-
-		var scrollNode = document.querySelector(element);
-		var items = scrollNode.children[0];
-		var itemsHeight = items.children.length * items.children[0].offsetHeight;
-		// 偏移量
-		var _margin_top_index = 0;
-		// 计时器
-		var mqrqueeTimer;
-
-		/**
-	 * 列表滚动函数
-	 */
-		function mintScroll() {
-			// 修改items所在元素的 `margin-top` 样式
-			setMarginTopStyle(items);
-			// 获取 `margin-top` 偏移量绝对值
-			var offset = Math.abs(parseInt(items.style.marginTop));
-			// 如果滚动的偏移量大于一个 item 的高度时
-			if (offset >= items.children[0].offsetHeight) {
-				// 把第一个 item 放到最后
-				items.appendChild(Array.prototype.slice.call(items.children).slice(0, 1)[0]);
-				// `margin-top` 归零，从新计算
-				_margin_top_index = 0;
-				setMarginTopStyle(items);
-			}
-		}
-		/**
-	  * 设置 `margin-top` 样式
-	  * @param  {Node} node 	Dom元素
-	  */
-		function setMarginTopStyle(node) {
-			node.style.cssText = "margin-top: " + _margin_top_index-- + "px";
-		}
-		/**
-	  * 启动计时器
-	  */
-		mqrqueeTimer = setInterval(function () {
-			if (height >= innerHeight) {
-				clearInterval(mqrqueeTimer);
-			} else {
-				mintScroll();
-			}
-		}, speed);
-		/**
-	  * 监听 `mouseover` 
-	  */
-		scrollNode.onmouseover = function () {
-			clearInterval(mqrqueeTimer);
-		};
-		/**
-	  * 监听 `mouseout` 
-	  */
-		scrollNode.onmouseout = function () {
-			mqrqueeTimer = setInterval(function () {
-				if (height >= innerHeight) {
-					clearInterval(mqrqueeTimer);
-				} else {
-					mintScroll();
+		function sheet_from_array_of_arrays(data, opts) {
+			var ws = {};
+			var range = {
+				s: {
+					c: 10000000,
+					r: 10000000
+				},
+				e: {
+					c: 0,
+					r: 0
 				}
-			}, speed);
-		};
+			};
+			for (var R = 0; R != data.length; ++R) {
+				for (var C = 0; C != data[R].length; ++C) {
+					if (range.s.r > R) range.s.r = R;
+					if (range.s.c > C) range.s.c = C;
+					if (range.e.r < R) range.e.r = R;
+					if (range.e.c < C) range.e.c = C;
+					var cell = {
+						v: data[R][C]
+					};
+					if (cell.v == null) continue;
+					var cell_ref = XLSX.utils.encode_cell({
+						c: C,
+						r: R
+					});
+
+					if (typeof cell.v === 'number') cell.t = 'n';else if (typeof cell.v === 'boolean') cell.t = 'b';else if (cell.v instanceof Date) {
+						cell.t = 'n';
+						cell.z = XLSX.SSF._table[14];
+						cell.v = datenum(cell.v);
+					} else cell.t = 's';
+
+					ws[cell_ref] = cell;
+				}
+			}
+			if (range.s.c < 10000000) ws['!ref'] = XLSX.utils.encode_range(range);
+			return ws;
+		}
+
+		/* Sheet name */
+		var ws_name = "NewSheet";
+
+		function Workbook() {
+			if (!(this instanceof Workbook)) return new Workbook();
+			this.SheetNames = [];
+			this.Sheets = {};
+		}
+
+		var wb = new Workbook(),
+		    ws = sheet_from_array_of_arrays(data);
+
+		/* add worksheet to workbook */
+		wb.SheetNames.push(ws_name);
+		wb.Sheets[ws_name] = ws;
+
+		var wbout = XLSX.write(wb, {
+			bookType: 'xlsx',
+			bookSST: true,
+			type: 'binary'
+		});
+
+		function s2ab(s) {
+			var buf = new ArrayBuffer(s.length);
+			var view = new Uint8Array(buf);
+			for (var i = 0; i != s.length; ++i) {
+				view[i] = s.charCodeAt(i) & 0xFF;
+			}return buf;
+		}
+
+		saveAs(new Blob([s2ab(wbout)], {
+			type: "application/octet-stream"
+		}), filename + '.xlsx');
 	};
 
 /***/ },
-/* 14 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){with(this) {
-	  return _h('div', {
-	    staticClass: "mint-scroll",
-	    style: ('height:' + height)
+	  return _h('button', {
+	    class: 'btn ' + className,
+	    attrs: {
+	      "id": "table-export"
+	    },
+	    on: {
+	      "click": toggle
+	    }
 	  }, [_t("default")])
 	}},staticRenderFns: []}
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-357450ce", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-2d4e829d", module.exports)
 	  }
 	}
 
 /***/ },
-/* 15 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){with(this) {
@@ -6554,23 +6559,22 @@
 	    staticClass: "row"
 	  }, [_m(0), " ", _h('div', {
 	    staticClass: "col-md-4"
-	  }, [_m(1), " ", _h('div', {
-	    staticClass: "box"
-	  }, [_m(2), " ", _h('mint-scroll', {
+	  }, [_h('table', {
+	    staticClass: "table table-striped table-bordered"
+	  }, [_m(1), " ", _h('tbody', [_l((users), function(user) {
+	    return _h('tr', [_h('td', [_s(user.id)]), " ", _h('td', [_s(user.name)]), " ", _h('td', [_s(user.age)]), " ", _h('td', [_s(user.birth)])])
+	  })])]), " ", _h('p', [_h('table-export', {
 	    attrs: {
-	      "speed": "50"
+	      "data": users,
+	      "class-name": "btn-info"
 	    }
-	  }, [_m(3)])])]), " ", _m(4)])])
+	  }, ["导出Excel"])])]), " ", _m(2)])])
 	}},staticRenderFns: [function (){with(this) {
 	  return _h('div', {
 	    staticClass: "col-md-4"
 	  })
 	}},function (){with(this) {
-	  return _h('h2', ["mint-scroll with vue2.0.x"])
-	}},function (){with(this) {
-	  return _h('h4', ["文章列表"])
-	}},function (){with(this) {
-	  return _h('ul', [_h('li', ["要是能变成数组多好啊"]), " ", _h('li', ["类数组是不一定全部支持的"]), " ", _h('li', ["所以其后面可以直接调用数组具有的方法"]), " ", _h('li', ["表示数组的原型中的slice方法。注意"]), " ", _h('li', ["能调用call的只有方法，所以"]), " ", _h('li', ["参数表示真正调用slice的环境变"]), " ", _h('li', ["连接两个或更多的数组，并返回结果"]), " ", _h('li', ["删除并返回数组的第一个元素"]), " ", _h('li', ["从某个已有的数组返回选定的元素"]), " ", _h('li', ["把数组转换为字符串，并返回结果。"])])
+	  return _h('thead', [_h('tr', [_h('th', ["编号"]), " ", _h('th', ["名字"]), " ", _h('th', ["年龄"]), " ", _h('th', ["出生日期"])])])
 	}},function (){with(this) {
 	  return _h('div', {
 	    staticClass: "col-md-4"
@@ -6579,7 +6583,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-828aa44a", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-4343dfb4", module.exports)
 	  }
 	}
 

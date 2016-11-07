@@ -2,12 +2,12 @@ var config = require('../webpack.config.js')
 var webpack = require('webpack')
 
 config.entry = {
-	'vue-mint-scroll': './index.js'
+	'vue-table-export': './index.js'
 }
 
 config.output = {
 	filename: './dist/[name].js',
-	library: 'MintScroll',
+	library: 'TableExport',
 	libraryTarget: 'umd'
 }
 

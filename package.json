@@ -1,7 +1,7 @@
 {
-  "name": "vue-mint-scroll",
-  "version": "1.0.3",
-  "description": "a light-weight, simple vue components with vue2.0",
+  "name": "vue-table-export",
+  "version": "1.0.4",
+  "description": "vue-table-export build with vue 2.0",
   "license": "MIT",
   "author": {
     "name": "gongph",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git@github.com:gongph/vue-mint-scroll.git"
   },
-  "main": "./dist/vue-mint-scroll.js",
+  "main": "./dist/vue-table-export.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "build": "webpack --progress --color --hide-modules --config build/webpack.build.config.js"
@@ -19,10 +19,9 @@
   "keywords": [
     "vuex",
     "vue",
-    "infinite scroll",
-    "ui",
-    "component",
-    "mint"
+    "table",
+    "export",
+    "component"
   ],
   "devDependencies": {
     "babel-core": "^6.16.0",
