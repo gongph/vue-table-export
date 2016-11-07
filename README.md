@@ -67,6 +67,7 @@
 | :data | Array | `[]` | 是 | 一个二维数组，表示要导出的数据。 |
 | :columns | Array | `[]` | 否 | 表格头部，用来做为 Excel 的头部。|
 | filename | String | `时间戳` | 否 | 文件名。缺省值为当前时间的时间戳。|
+| type | String | `xlsx` | 否 | 导出类型。==当前版本仅支持导出Excel==|
 | button-text | String | `导出Excel` | 否 | 按钮文本。|
 | class-name | String | `btn-success` | 否 | 按钮样式。|
 
