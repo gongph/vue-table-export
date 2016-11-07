@@ -72,4 +72,4 @@
 | class-name | String | `btn-success` | 否 | 按钮样式。|
 
 ## LICENSE
-copyright（c）2016 [gongph](https://github.com/gongph)
+copyright(c) 2016 [gongph](https://github.com/gongph)
